@@ -1,6 +1,6 @@
 # Rxmq.js convenience aliases
 
-> A set of alises for Rxmq.js
+> A plugin that provides a set of convenience alises for Rxmq.js
 
 ## What is it?
 

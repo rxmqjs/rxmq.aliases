@@ -13,12 +13,11 @@
   },
   "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net)",
   "license": "MIT",
-  "dependencies": {
-    "rxmq": "^0.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
+    "rxmq": "^0.4.0",
     "should": "^7.0.1",
-    "turris-gulp-tasks": "^0.6.0"
+    "turris-gulp-tasks": "^0.7.0"
   }
 }

@@ -1,3 +1,4 @@
+/* eslint es6: false */
 var path = require('path');
 var fs = require('fs');
 
@@ -19,6 +20,18 @@ module.exports = {
     },
     resolve: {
         root: path.resolve(__dirname),
+    },
+    node: {
+        fs: 'empty',
+    },
+    module: {
+        loaders: [
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loader: 'babel',
+            },
+        ],
     },
     externals: nodeModules,
 };

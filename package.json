@@ -1,6 +1,6 @@
 {
   "name": "rxmq.aliases",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A plugin that provides a set of convenience alises for Rxmq.js",
   "main": "es5/component.js",
   "es6": "index.js",

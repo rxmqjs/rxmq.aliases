@@ -1,7 +1,7 @@
 /**
  * Rxmq Bus aliases
  */
-const BusAliases = {
+export const BusAliases = {
     /**
      * Get an Rx.Observable for specific set of topics on a given channel
      * @param  {Object} options             Observe options
@@ -68,8 +68,3 @@ const BusAliases = {
         this.channel(channel).subject(topic).onNext(data);
     },
 };
-
-/**
- * Rxmq bus aliases definition
- */
-export {BusAliases};

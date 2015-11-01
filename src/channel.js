@@ -1,7 +1,7 @@
 /**
  * Rxmq channel class
  */
-const ChannelAliases = {
+export const ChannelAliases = {
     /**
      * Alias for subscription to a specific topic using given handler functions
      * @param  {Object}        options      Subscription options
@@ -111,8 +111,3 @@ const ChannelAliases = {
         return this.request({topic, data, Subject});
     },
 };
-
-/**
- * Channel aliases definition
- */
-export {ChannelAliases};

@@ -1,3 +1,1 @@
-import {BusAliases, ChannelAliases} from './src';
-
-export {BusAliases, ChannelAliases};
+export {BusAliases, ChannelAliases} from './src';

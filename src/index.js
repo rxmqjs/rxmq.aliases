@@ -1,2 +1,2 @@
-export * from './rxmq';
-export * from './channel';
+export {BusAliases} from './rxmq';
+export {ChannelAliases} from './channel';

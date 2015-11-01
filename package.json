@@ -13,17 +13,16 @@
   },
   "author": "Tim Ermilov <yamalight@gmail.com> (http://codezen.net)",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "babel": "^5.8.20",
-    "babel-core": "^5.8.20",
-    "babel-loader": "^5.3.2",
-    "esdoc": "^0.2.0",
+    "babel-core": "^6.0.14",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.0.14",
+    "esdoc": "^0.4.2",
     "faucet": "0.0.1",
     "gulp": "^3.9.0",
     "gulp-util": "^3.0.6",
-    "istanbul": "^0.3.17",
-    "rxmq": "^0.5.1",
+    "istanbul": "^0.4.0",
+    "rxmq": "^0.8.0",
     "tape": "^4.0.2",
     "webpack": "^1.10.5"
   }
